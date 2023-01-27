@@ -174,18 +174,64 @@ img {
   --neutral-color4: hsl(240, 100%, 5%);
   /* fonts */
   --main-font: "Inter", sans-serif;
-  --normal-weight: 400; 
-  --bold-weight: 700; 
-  --extra-bold-weight: 800; 
+  --normal-weight: 400;
+  --bold-weight: 700;
+  --extra-bold-weight: 800;
   /* sizes */
-  --gap: 1rem; 
+  --gap: 1rem;
   --xx-large: 32px;
-  --x-large: 24px; 
-  --large: 18px; 
-   --medium: 15px; 
-   --small: 13px; 
-   --x-small: 10px; 
-   --xx-small: 9px; 
+  --x-large: 24px;
+  --large: 18px;
+  --medium: 15px;
+  --small: 13px;
+  --x-small: 10px;
+  --xx-small: 9px;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--mobile-width);
+  padding: 1rem;
+  margin: 0 auto;
+  font-family: var(--main-font);
+}
+
+.desktop-menu-items {
+  display: none;
+}
+
+.invisible {
+  display: none;
+}
+
+#logo {
+  margin-right: 77%;
+  width: 44px;
+}
+
+#hamburger-icon {
+  cursor: pointer;
+}
+
+header {
+  padding: 10px;
+  margin-bottom: var(--gap);
+  display: flex;
+  align-items: flex-end;
+  min-width: 100%;
+}
+
+#hero-img-des {
+  display: none;
+}
+
+#hero-title {
+	font-size: var(--xx-large);
+	font-weight: var(--extra-bold-weight);
 }
 
 .attribution {
