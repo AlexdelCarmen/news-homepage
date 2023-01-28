@@ -267,6 +267,37 @@ header {
   font-weight: var(--bold-weight);
 }
 
+#new {
+  background-color: var(--neutral-color4);
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+#new-title {
+  color: var(--primary-color1);
+  font-size: var(--xx-large);
+}
+
+.new-card:not(:first-child) {
+  padding-top: 0.9rem;
+}
+
+.new-card:not(:last-child) {
+  border-bottom: 1px solid var(--neutral-color3);
+}
+
+.card-title {
+  color: var(--neutral-color1);
+  font-size: var(--large);
+}
+
+.card-text {
+  color: var(--neutral-color2);
+  font-size: var(--medium);
+  padding-right: 3rem;
+  line-height: var(--x-large);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
