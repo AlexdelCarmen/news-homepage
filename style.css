@@ -298,6 +298,39 @@ header {
   line-height: var(--x-large);
 }
 
+.article-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap);
+  margin: 2rem 0;
+}
+
+.article-image {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  width: 6.5rem;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.article-number {
+  font-size: var(--x-large);
+  color: var(--neutral-color2);
+}
+
+.article-title {
+  font-size: var(--large);
+}
+
+.article-description {
+  font-size: var(--medium);
+  color: var(--neutral-color3);
+  padding-right: 3.2rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
